@@ -1,0 +1,53 @@
+name: autisma
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  font_awesome_flutter: ^9.2.0
+  outline_gradient_button: ^2.0.0+1
+  percent_indicator: ^3.4.0
+  shared_preferences: ^2.0.7
+  path_provider: ^2.0.4
+  image_picker: ^0.8.3+1
+
+  permission_handler: ^8.1.6
+  flutter_sound: ^8.4.2
+  dio: ^4.0.4
+  http: ^0.13.3
+  intl: ^0.17.0
+  assets_audio_player: ^3.0.3+7
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  fonts:
+    - family: MonteCarlo
+      fonts:
+        - asset: fonts/MonteCarlo-Regular.ttf
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: StyleScript
+      fonts:
+        - asset: fonts/StyleScript-Regular.ttf
